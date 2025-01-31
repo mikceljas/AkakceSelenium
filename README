@@ -1,0 +1,16 @@
+1 - In the .zip file as .xlsx file
+2 - Selenium codes are shared in repo
+  I realized you requested usage of Java and didn't have time to convert my process. Therefore i used C# from start and used RestSharp instead of RestAssured.
+  The code requires RestSharp, XUnit, NUnit and FluentAssertions as NuGet packages.
+  For code to work credentials needs to be filled with a valid akakce account.
+  I didn't have time to correct searchbar use, you can see my trials within code as comment lines at the bottom. 
+  Therefore the code jumps to the searched page with 'iphone' text and works as intended.
+  Console output is in .zip file as a screenshot.
+3 - Api tests are shared as screenshots 
+  Dynamic variables are used for 'token' and 'BookingID'.
+  Which can be found in 'Scripts' area of the related requests.
+4 - Bugs are shared as screenshots
+  4.1 - In some occasions website loads 'footer' area twice. Can be seen in screenshot
+  4.2 - In Followed Items page there are filter shortcuts for brands and some brands are not shown. Therefore Filters sum doesn't add up to total number of items
+  4.3 - In Followed Items page there is another calculation error after removing an item from follow-list. Therefore while 'Total items' is calculated as 3 where there are only 2 items left in the list.
+5 - Collection and Report is shared as .json files
